@@ -1,7 +1,8 @@
-0d75f1f65b4bf0c603b4bce515a438df *DESCRIPTION
-c294db7253680016372858bacb879a0c *NAMESPACE
+649c7ff6aca16869f60b680767c3b879 *DESCRIPTION
+087168fdd8f70c3168a1054e10ff17f6 *NAMESPACE
 fbf2d37ea2dee599f73140b29a93af79 *R/AllClasses.R
-e10d335a81501b4b5173534f6babda0d *R/publishManifest.R
-c085964a2a54f181869c244a27412e0e *man/Gist.Rd
-6b82eef46ab890e329cf18feaee35d11 *man/GistDest-class.Rd
-f89895eecdb39266fab4a9b3faaef56e *man/publishManifest.Rd
+620a59a8f0938981b768f7b33fad72ee *R/publishManifest.R
+07e22d80dfe82d96e6db385ec5652986 *inst/CITATION
+a562e02972adfb48677956a88ee17c44 *man/Gist.Rd
+450fc6ce1327ac9726a291d8e3318f69 *man/GistDest-class.Rd
+43e4b1e30c1ff4ee4ff2d393faef5eb0 *man/publishManifest.Rd
