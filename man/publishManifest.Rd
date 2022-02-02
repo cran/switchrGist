@@ -8,11 +8,21 @@
 \alias{publishManifest,SessionManifest,GistDest}
 \title{publishManifest}
 \usage{
-\S4method{publishManifest}{PkgManifest,GistDest}(manifest, dest,
-  desc = "An R package manifest", fname = "manifest.rman", ...)
+\S4method{publishManifest}{PkgManifest,GistDest}(
+  manifest,
+  dest,
+  desc = "An R package manifest",
+  fname = "manifest.rman",
+  ...
+)
 
-\S4method{publishManifest}{SessionManifest,GistDest}(manifest, dest,
-  desc = "An R seeding manifest", fname = "manifest.rman", ...)
+\S4method{publishManifest}{SessionManifest,GistDest}(
+  manifest,
+  dest,
+  desc = "An R seeding manifest",
+  fname = "manifest.rman",
+  ...
+)
 }
 \arguments{
 \item{manifest}{The manifest to be published}
@@ -32,8 +42,9 @@ the url to access the raw file within the gist.
 publish a manifest to Github in the form of a gist
 }
 \examples{
+\dontrun{
 man = libManifest()
-\dontrun{gisturl = publishManifest(man, Gist())}
+gisturl = publishManifest(man, Gist())}
 }
 \references{
 Becker G, Barr C, Gentleman R, Lawrence M; Enhancing Reproducibility and Collaboration via Management of R Package Cohorts. Journal of Statistical Software, 81(1). 2017. doi: 10.18637/jss.v082.i01
